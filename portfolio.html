@@ -11,90 +11,112 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
 </head>
 <body>
     <!--Header-->
     <header class="header">
+        <div class="container header-content">
         <a class="logo" href="index.html"><span class="collortxt">Web</span>Studio</a>
         <nav>
             <ul class="header-navigate">
-                <li><a href="index.html" class="nav-link">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
-                <li><a href="/" class="nav-link">Контакты </a></li>
+                <li class="item"><a href="index.html" class="nav-link">Студия</a></li>
+                <li class="item"><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                <li class="item"><a href="/" class="nav-link">Контакты </a></li>
             </ul>
         </nav>
         <!--contact-->
         <ul class="contact-navigate">
-            <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
+            <li class="item"><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <!-- main -->
     <main>
         <!-- button -->
-        <section class="project">
+        <section class="section project">
+            <div class="container">
             <h1 class="title">Проекты</h1>
             <ul class="project-button">
-                <li><button class="button" type="button">Все</button></li>
-                <li>
-                    <button class="button" type="button">Приложения</button>
-                </li>
-                <li><button class="button" type="button">Веб-сайты</button></li>
-                <li><button class="button" type="button">Дизайн</button></li>
-                <li><button class="button" type="button">Маркетинг</button></li>
+                <li class="button-list"><button class="button" type="button">Все</button></li>
+                <li class="button-list"><button class="button" type="button">Приложения</button></li>
+                <li class="button-list"><button class="button" type="button">Веб-сайты</button></li>
+                <li class="button-list"><button class="button" type="button">Дизайн</button></li>
+                <li class="button-list"><button class="button" type="button">Маркетинг</button></li>
             </ul>
             <!-- photo -->
             <ul class="project-img">
-                <li>
-                    <img src="images/1p.jpg" width="370" alt="p1" />
-                    <h2 class="mane_project">Технокряк</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/1p.jpg" width="370" alt="p1" />
+                    <div class="cotnent">
+                    <h2 class="name_project">Технокряк</h2>
                     <p class="description">Веб-сайт</p>
+                    </div>  
                 </li>
-                <li>
-                    <img src="images/2p.jpg" width="370" alt="p2" />
-                    <h2 class="mane_project">Постер New Orlean vs Golden Star</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/2p.jpg" width="370" alt="p2" />
+                    <div class="content">
+                    <h2 class="name_project">Постер New Orlean vs Golden Star</h2>
                     <p class="description">Дизайн</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="images/3p.jpg" width="370" alt="p3" />
-                    <h2 class="mane_project">Ресторан Seafood</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/3p.jpg" width="370" alt="p3" />
+                    <div class="content">
+                    <h2 class="name_project">Ресторан Seafood</h2>
                     <p class="description">Приложение</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="images/4p.jpg" width="370" alt="p4" />
-                    <h2 class="mane_project">Проект Prime</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/4p.jpg" width="370" alt="p4" />
+                    <div class="content">
+                    <h2 class="name_project">Проект Prime</h2>
                     <p class="description">Маркетинг</p>
+                    </div>  
                 </li>
-                <li>
-                    <img src="images/5p.jpg" width="370" alt="p5" />
-                    <h2 class="mane_project">Проект Boxes</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/5p.jpg" width="370" alt="p5" />
+                    <div class="content">
+                    <h2 class="name_project">Проект Boxes</h2>
                     <p class="description">Приложение</p>
+                    </div>
                 </li>
-                <li>
+                <li class="list">
                     <img src="images/6p.jpg" width="370" alt="p6" />
-                    <h2 class="mane_project">Inspiration has no Borders</h2>
+                    <div class="content">
+                    <h2 class="name_project">Inspiration has no Borders</h2>
                     <p class="description">Веб-сайт</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="images/7p.jpg" width="370" alt="p7" />
-                    <h2 class="mane_project">Издание Limited Edition</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/7p.jpg" width="370" alt="p7" />
+                    <div class="content">
+                    <h2 class="name_project">Издание Limited Edition</h2>
                     <p class="description">Дизайн</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="images/8p.jpg" width="370" alt="p8" />
-                    <h2 class="mane_project">Проект LAB</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/8p.jpg" width="370" alt="p8" />
+                    <div class="content">
+                    <h2 class="name_project">Проект LAB</h2>
                     <p class="description">Маркетинг</p>
+                    </div>  
                 </li>
-                <li>
-                    <img src="images/9p.jpg" width="370" alt="p9" />
-                    <h2 class="mane_project">Growing Business</h2>
+                <li class="list">
+                    <img class="photo-card" src="images/9p.jpg" width="370" alt="p9" />
+                    <div class="content">
+                    <h2 class="name_project">Growing Business</h2>
                     <p class="description">Приложение</p>
+                    </div>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!-- Footer -->
 <footer class="footer">
+    <div class="container conteiner-footer">
     <a class="logo-footer" href="index.html"><span class="collortxt">Web</span>Studio</a>
     <address class="address">
         <ul class="address-list">
@@ -109,6 +131,7 @@
             </li>
         </ul>
     </address>
+    </div>
 </footer>
 </body>
 </html>
